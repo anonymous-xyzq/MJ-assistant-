@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mj-personal-ai",
+  "main": "Worker.js",
+  "compatibility_date": "2026-11-17",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mj-memory",
+      "database_id": "693102c3-92bb-424e-aaff-542479909fb9"
+    }
+  ]
+}
